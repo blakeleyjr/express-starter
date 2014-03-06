@@ -65,7 +65,7 @@ $(function() {
     if (outputText === '07') {
       outputText = '7';
     }
-    $('#seven').text(outputText);
+    $('#output').text(outputText);
   });
 
   $('#eight').click(function() {
@@ -73,7 +73,7 @@ $(function() {
     if (outputText === '08') {
       outputText = '8';
     }
-    $('eight').text(outputText);
+    $('#output').text(outputText);
   });
 
   $('#nine').click(function() {
@@ -81,7 +81,7 @@ $(function() {
     if (outputText === '09') {
       outputText = '9';
     }
-    $('nine').text(outputText);
+    $('#output').text(outputText);
   });
 
   $('#add').click(function() {
