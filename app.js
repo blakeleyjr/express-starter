@@ -38,6 +38,10 @@ app.get('/imgrr', function(req, res) {
 	res.render('imgrr.html', { });
 });
 
+app.get('/funcs', function(req, res) {
+	res.render('funcs.html', { });
+});
+
 ///////////////////////////////////////////////////////////////////////////////
 // RUN CONFIGURATION                                                         //
 ///////////////////////////////////////////////////////////////////////////////

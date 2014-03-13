@@ -14,6 +14,7 @@ else {$('#main_img').show()
 // Problem 3 (Swap Em) -----------------------------------------------
 // WRITE CODE HERE
 
+
 // Problem 4 (Find the Source) -------------------------------------------------
 $('.clickable').click(function() {
   // WRITE CODE HERE
