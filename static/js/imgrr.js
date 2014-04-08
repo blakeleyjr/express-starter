@@ -4,19 +4,26 @@ $('#toggle_img').click(function() {
 
 if ($('#toggle_img').text() === 'Go Away!') {
 	$('#main_img').hide()
-	$('#toggle_img').text('Come Back')
+	$('#toggle_img').text('Come Back');
 }
 else {$('#main_img').show()
-	$('#toggle_img').text('Go Away!');}
+	$('#toggle_img').text('Go Away!')};
 });
 
 
 // Problem 3 (Swap Em) -----------------------------------------------
+$('change_img').click(function() {
+	if (($'new_img_file').text() === 'giraffe.jpg') {
+	(giraffe.jpg).show;
+
+}
+})
 // WRITE CODE HERE
 
 
 // Problem 4 (Find the Source) -------------------------------------------------
-$('.clickable').click(function() {
+$('#change_img').click(function() {
+	console.log ($'#new_img_file'.val());
   // WRITE CODE HERE
 });
 

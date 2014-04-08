@@ -42,6 +42,14 @@ app.get('/funcs', function(req, res) {
 	res.render('funcs.html', { });
 });
 
+app.get('/canvas', function(req, res) {
+	res.render('canvas.html', {});
+});
+
+app.get('/ball', function(req, res) {
+	res.render('ball.html', {});
+});
+
 ///////////////////////////////////////////////////////////////////////////////
 // RUN CONFIGURATION                                                         //
 ///////////////////////////////////////////////////////////////////////////////
